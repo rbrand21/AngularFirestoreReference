@@ -1,0 +1,4 @@
+<div *ngFor="let document of collection | async">
+  <div>{{document | json}}</div>
+  <div>&nbsp;&nbsp; {{document.Field1}} </div>
+</div>
